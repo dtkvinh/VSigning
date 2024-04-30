@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/landing.css">
+    <title>VSigning - Chào Mừng</title>
+    <style>
+        body{
+            background: url("images/background.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+ <div class="wrapper">
+    <nav class="nav">
+        <div class="nav-logo">
+            <p>VSigning</p>
+        </div>
+        <div class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="#" class="link active">Trang Chủ</a></li>
+                <li><a href="#" class="link">Học</a></li>
+                <li><a href="#" class="link">Trò Chơi</a></li>
+                <li><a href="#" class="link">Cộng Đồng</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn white-btn" id="loginBtn" onclick="login()"><a href="login.html" style="text-decoration: none; color: black;">Đăng Nhập</a></button>
+            <button class="btn" id="registerBtn" onclick="register()"><a href="login.html" style="text-decoration: none; color: black">Đăng Kí</a></button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+        </div>
+    </nav>
+    <div class="content">
+        <h1 class="heading">
+            <span class="small">chào mừng bạn đến với website học</span>
+            thủ ngữ
+            <span class="no-fill">VSigning</span>
+        </h1>
+        <a href="login.html" class="btn">đăng kí ngay!</a>
+    </div>
+    </div>   
+    <script src="js/landing.js"> </script>
+</body>
+</html>

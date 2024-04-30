@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dịch Video Thủ Ngữ</title>
+    <link rel="stylesheet" href="css/game_2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/game_2.js" defer></script>
+  </head>
+  <body>
+    <div class="start_btn"><button>Bắt đầu </button></div>
+    <div class="info_box">
+        <div class="info-title"><span>Một số luật của trò chơi</span></div>
+        <div class="info-list">
+            <div class="info">1. Bạn sẽ có <span>30 giây</span> cho mỗi câu hỏi.</div>
+            <div class="info">2. Khi đã suy nghĩ xong đáp án, hãy nhấn nút kiểm tra.</div>
+            <div class="info">3. Bạn không thể trả lời câu hỏi khi thời gian đã ngưng.</div>
+            <div class="info">4. Bạn có thể đổi câu hỏi bằng nút phía dưới.</div>
+            <div class="info">5. Máy chấm sẽ phân tích câu trả lời của bạn để trả về kết quả tương ứng.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Thoát</button>
+            <button class="restart">Tiếp tục</button>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Dịch Video Thủ Ngữ</h2>
+        <div class="content">
+          <div class="vid"><video id="video" src="video-1.mp4" muted autoplay controls></video></div>
+            <div class="details">
+                <p class="hint">Gợi ý: <span></span></p>
+                <p class="time">Thời gian còn lại: <span><b>30</b>s</span></p>
+            </div>
+            <input type="text" spellcheck="false" placeholder="Nhập Đáp Án">
+            <div class="buttons">
+                <button class="refresh-word">Đổi Câu</button>
+                <button class="check-word">Kiểm Tra</button>
+            </div>
+        </div>
+    </div>
+    <div class="result_box">
+      <div class="icon">
+          <i class="fas fa-crown"></i>
+      </div>
+      <div class="complete_text">Bạn Đã Hoàn Thành Trò Chơi!</div>
+      <div class="score_text">
+          <!-- Here I've inserted Score Result from JavaScript -->
+      </div>
+      <div class="buttons">
+          <button class="restart">Chơi Lại</button>
+          <button class="quit">Thoát Ra</button>
+      </div>
+  </div>
+  </body>
+</html>
